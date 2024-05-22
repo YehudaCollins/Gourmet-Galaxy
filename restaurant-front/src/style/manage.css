@@ -1,0 +1,123 @@
+.manage-main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: larger;
+    color: #314438;
+}
+
+.manage-main h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #000000;
+
+
+}
+
+
+.restaurant-details-mange {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.restaurant-details-mange h2 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.restaurant-details-mange p {
+    margin: 0;
+}
+
+.restaurant-details-mange button {
+    height: 6vh;
+    margin-top: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 8px;
+    width: 35vw;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.restaurant-details-mange button:last-child {
+    background-color: #dc3545;
+    color: white;
+}
+
+.hh{
+  margin-left: 7vw;
+}
+
+
+
+
+.restaurant-item {
+    max-width: 55vw;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: #c9e9b8;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+}
+
+.edit-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+
+.edit-form input,
+.edit-form textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 90%;
+    box-shadow: 0 4px 0px rgba(0, 0, 0, 0.2);
+    outline-color: #218838;
+    background-color: #fcfbe6;
+    
+}
+
+
+ 
+.edit-form button {
+    border: none;
+    border-radius: 8px;
+    width: 40vw;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+
+.edit-form button[type="submit"] {
+    background-color: #28a745;
+    color: white;
+}
+
+.edit-form button[type="submit"]:hover {
+    background-color: #218838;
+}
+
+.edit-form button[type="button"] {
+    background-color: #6c757d;
+    color: white;
+}
+
+.edit-form button[type="button"]:hover {
+    background-color: #5a6268;
+}
+
+    .restaurant-details-mange p {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+  }
+  
+  .restaurant-details-mange strong {
+    color: #7f8151;
+  }
+  

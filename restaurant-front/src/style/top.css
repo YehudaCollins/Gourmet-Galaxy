@@ -1,0 +1,48 @@
+.main-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(90deg, rgb(6, 6, 15) 0%, rgb(6, 6, 15) 50%, rgb(72, 75, 40) 100%);
+    color: #fff;
+    padding: 1rem 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .logo div {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 0;
+    color: #ffdd57;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  .links {
+    display: flex;
+    gap: 2rem;
+  }
+  
+  .links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .links a:hover,
+  .links a.active-link {
+    color: #ffdd57;
+    transform: scale(1.1);
+  }
+  
+  .links a svg {
+    margin-right: 0.5rem;
+    transition: transform 0.3s ease;
+  }
+  
+  .links a:hover svg,
+  .links a.active-link svg {
+    transform: rotate(360deg);
+  }
+  

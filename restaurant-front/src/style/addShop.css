@@ -1,0 +1,72 @@
+.add-restaurant-container {
+    max-width: 55vw;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: #cbe8bd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .add-restaurant-container h1 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #333;
+
+  }
+  /* .form-group input{
+    background-color: #333;
+  } */
+  
+  .form-group {
+    margin-bottom: 1rem;
+    justify-content: center;
+    margin-right: 1.6vw;;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #615434;
+    font-size: larger;
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .form-group input:focus,
+  .form-group textarea:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  textarea {
+    resize: vertical;
+    height: 100px;
+  }
+  
+  button {
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    background: #d6a145;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  button:hover {
+    background: #bc871c;
+  }
+  
